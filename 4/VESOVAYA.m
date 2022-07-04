@@ -1,0 +1,10 @@
+k = 7;
+T = 1;
+p = fplot('15*sin(2.5*x)');
+p(1).LineWidth = 2;
+p(1).Color = 'r';
+axis([0 10 -16 16]);
+title('Временная весовая характеристика', 'FontSize', 16);
+xlabel('t', 'FontSize', 14);
+ylabel('\omega(t)', 'FontSize', 16,'FontWeight','bold');
+grid on;
